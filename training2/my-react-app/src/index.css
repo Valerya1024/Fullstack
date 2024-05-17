@@ -1,0 +1,289 @@
+.card {
+  border: white solid 1px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+
+.card .card-image {
+  max-width: 70%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card .card-title {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  color: black;
+}
+
+.card .card-text {
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+}
+
+.student {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border: black 1px solid;
+}
+.student p {
+  margin: 0;
+
+}
+
+.welcome-message {
+  font-size: 2.5em;
+  background-color: mediumseagreen;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.login-prompt {
+  background-color: tomato;
+  font-size: 2.5em;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.list-category {
+  font-size:2.5em;
+  font-weight: bold;
+  color:black;
+  margin-bottom:10px;
+  text-align: center;
+  border:3px solid;
+  border-radius:5px;
+  background-color: mediumseagreen;
+}
+
+.list-items li{
+  font-size:2em;list-style: none;color:black;text-align: center;margin:0;
+}
+
+.list-items li:hover {
+  color: gray;
+}
+
+.counter-container{
+  text-align: center; 
+  font-family: Arial,sans-serif;
+}
+  
+.count-display {
+  font-size: 10em;
+  margin-top:0;
+  margin-bottom:50px;
+}
+  
+.counter-button {
+  width: 150px;
+  height: 50px;
+  font-size:1.5em;
+  font-weight: bold;
+  margin:0px 5px; 
+  background-color :rgb(69, 164, 196); 
+  color: white;
+  border: none;
+  border-radius:5px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.counter-button:hover {
+  background-color: rgb(52, 193, 240); ;
+}
+
+.color-picker-container{
+  display: flex;flex-direction:column;align-items: center;
+}
+
+.color-picker-container h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  margin: 50px;
+}
+
+.color-picker-container label {
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.color-picker-container input[type="color"] {
+  height: 50px;
+  width: 75px;
+  margin-bottom: 10px;
+}
+
+.color-display{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:5px solid white;
+  border-radius:25px;
+  margin-bottom:25px;
+  transition:0.25s ease;}
+
+.to-do-list{
+  font-family:Arial,sans-serif;
+  text-align:center;
+  margin-top:100px;
+}
+.to-do-list h1 {
+  font-size: 4rem;
+}
+.to-do-list button{
+  font-size:1.7rem;
+  font-weight: bold;
+  padding:10px 20px;
+  color:white;
+  border: none;
+  border-radius:5px;
+  cursor: pointer;
+  transition:background-color .5 ease;
+  margin: 5px;
+}
+
+.add-button{
+  background-color: rgb(80, 163, 80);
+}
+
+.add-button:hover{
+  background-color: rgb(43, 128, 43);
+}
+
+.delete-button{
+  background-color: rgb(235, 70, 70);
+}
+
+.delete-button:hover{
+  background-color:rgb(153, 44, 44);
+}
+.move-button{
+  background-color: rgb(126, 207, 231);
+}
+.move-button:hover {
+  background-color: rgb(57, 162, 194);
+}
+
+.to-do-list input[type="text"] {
+  font-size: 2.5rem;
+}
+
+.to-do-list ol{
+  padding:0;
+}
+.to-do-list li{
+  font-size:2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color:rgb(238, 238, 238);
+  margin-bottom:10px;
+  border:3px solid hsla(0,0%,85%,0.75);
+  border-radius:5px;
+  display: flex;
+  align-items: center;
+}
+
+.task-name{
+  flex: 1;
+}
+
+.clock-background {
+  background-image:url(unnamed.jpg);
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+  margin:0;
+  /* center vertically */
+  display:flex;
+  justify-content:center;
+  min-height:100vh;
+  align-items: center;
+}
+.clock-container {
+  backdrop-filter:blur(5px);
+  width: 100vw;
+}
+.clock{
+  color:white;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  text-shadow:3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.box {
+  border: 1px black solid;
+  padding: 10px;
+}
+
+body{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(221, 221, 221);
+}
+.stopwatch{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  border:5px solid;
+  border-radius:50px;
+  background-color:white;
+  padding: 30px;
+}
+.stopwatch-display{
+  font-size: 5rem;
+  font-family: monospace;
+  font-weight: bold;
+  color:rgb(179, 168, 168);
+  text-shadow:2px 2px 2px rgb(15, 14, 14);
+  margin-bottom:25px;
+}
+
+.controls button {
+  font-size: 1.5rem;
+  font-weight: bold;padding: 10px 20px;margin:5px;min-width:125px;
+  border: none;
+  border-radius:10px;
+  cursor: pointer;
+  color: white;
+  transition:background-color 0.5s ease;
+}
+
+.start-button{
+  background-color: rgb(98, 160, 6);
+}
+.start-button:hover{
+  background-color: rgb(78, 124, 9);
+}
+.stop-button{
+  background-color: rgb(238, 62, 62);
+}
+.stop-button:hover{
+  background-color: rgb(209, 41, 41);;
+}
+.reset-button{
+  background-color: rgb(91, 151, 241);
+}
+.reset-button:hover{
+  background-color:rgb(57, 113, 197);
+}
